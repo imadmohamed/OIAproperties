@@ -53,20 +53,21 @@ const HeroSection = () => {
                   POPULAR<br />AREAS
                 </div>
               </div>
-              <div className="h-px w-full lg:h-10 lg:w-px bg-white/30" />
+              <div className="h-px w-full lg:h-10 xl:w-px bg-white/30" />
               <div className="flex items-center gap-3 text-white">
                 <div className="text-5xl">11+</div>
                 <div className="text-sm text-gray-200 text-left">
                   PROJECTS
                 </div>
               </div>
-              <div className="h-px w-full lg:h-10 lg:w-px bg-white/30" />
+              <div className="h-px w-full lg:h-10 xl:w-px bg-white/30" />
               <div className="flex items-center gap-3 text-white">
-                <div className="text-5xl">6+</div>
-                <div className="text-sm text-gray-200 text-left">
-                  YEARS<br />EXPERIENCE
-                </div>
-              </div>
+  <div className="text-sm text-gray-200 text-left">
+    YEARS<br />EXPERIENCE
+  </div>
+  <div className="text-5xl">6+</div>
+</div>
+
             </div>
             <div className="w-full flex justify-center lg:justify-end mt-4 lg:mt-10">
               <Button className="bg-[#f3a725] hover:bg-[#223248] text-white text-lg font-normal px-6 py-3 rounded-full shadow-lg">
