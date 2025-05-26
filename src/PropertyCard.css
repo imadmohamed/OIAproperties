@@ -1,0 +1,38 @@
+/* PropertyCard.css */
+.property-card-image-container {
+  position: relative;
+  height: 12rem; /* h-48 */
+  overflow: hidden;
+}
+
+.property-card-image-wrapper {
+  position: absolute;
+  inset: 0;
+  transition: transform 300ms ease-in-out;
+}
+
+.slide-out-left {
+  transform: translateX(-100%);
+}
+
+.slide-out-right {
+  transform: translateX(100%);
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.3s ease-in-out forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.3s ease-in-out forwards;
+}
